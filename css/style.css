@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@300 & family= Roboto+Slab:wght@200;400 & family= Supermercado+One & display= intercambio');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Header*/
+
+.inicio {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+.nav__item {
+    display: inline-block;
+    margin-left: 16px;
+    font-weight: bolder;
+    color: #8C4830;
+}
+
+.header__titulo {
+    font-family:'Supermercado One', cursiva;
+    color:#BF7F5A;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+/*Main*/
+h2{ 
+    font-style: oblique;
+    text-align: center;
+    color:#CFD2D2;
+   
+}
+h3 {
+    font-style: oblique;
+    text-align: right;
+    color:#CFD2D2;
+    
+} 
+.div__texto{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.card{
+        background-color: beige;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+.card__header{
+    height: 200px;
+    width: 200px;
+    background-color:#8C4830;
+    border: 1px solid white;
+}
+.card__img{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+@media screen and (max-width:1200px){
+    .card__img{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .card__img{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .card__img{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .card__img{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    .card__img{
+        background-color: aliceblue;
+    }
+}
+/*footer*/
+footer{ 
+    text-align: center;
+    font-size: 20px;
+    background-color:#8C2B34 ;
+    color:#F2C7AE;
+    position: bottom;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1200px){
+    .contactos{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .contactos{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .contactos{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .contactos{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    .contactos{
+        background-color: aliceblue;
+    }
+}
+@media screen and (max-width:1200px){
+    .ustedes{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .ustedes{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .ustedes{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .ustedes{
+        background-color: #F2C7AE;
+        
+    }
+}
+@media screen and (max-width:320px){
+    .ustedes{
+        background-color: aliceblue;
+    }
+}
+@media screen and (max-width:1200px){
+    .productos{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .productos{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .productos{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .productos{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    .productos{
+        background-color: aliceblue;
+    }
+}
+
+  
+/*Nosotros pagina 2*/
+
+.nosotros {
+    background-color: white ;
+    width: 100%;
+    height: 100%;
+}
+.nosotros__titulo{
+    font-family:'Supermercado One', cursiva;
+    font-size: 35px;
+    color: #8C4830;
+    text-align: center;
+    margin-top: 20px;
+}
+.nosotros__parrafo{
+    font-style:italic solid ;
+    color:#BF7F5A;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.grid-galeria{
+    display:grid;
+    justify-content:space-around;
+    grid-gap: 7rem;
+    grid-template-columns: 90px 90px 90px  ;
+    grid-template-rows: 150px 150px;
+    width: auto;
+    background-color: #F2C7AE;
+}
+
+
+.div__video{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+video{
+    display: flex;
+    justify-content: center;
+
+}
+ .div__fotos{
+     background-color: #BF7F5A;
+     border: 1px solid white;
+     width: 100%;
+     height: auto;
+     padding: 5px;
+     display: flex;
+     justify-content: center;
+ }
+ @media screen and (max-width:1200px){
+    .div__fotos{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .div__fotos{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .div__fotos{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .div__fotos{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    .div__fotos{
+        background-color: aliceblue;
+    }
+}
+@media screen and (max-width:1200px){
+    .video{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .video{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .video{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .video{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    .video{
+        background-color: aliceblue;
+    }
+}
+@media screen and (max-width:1200px){
+    .div__video{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .div__video{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .div__video{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .div__video{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    .div__video{
+        background-color: aliceblue;
+    }
+}
+
+@media screen and (max-width:1200px){
+    div.grid-galeria{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    div.grid-galeria{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    div.grid-galeria{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    div.grid-galeria{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    div.grid-galeria{
+        background-color: aliceblue;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .grid__item{
+        background-color:#8C2B34;
+     }
+}
+@media screen and (max-width:1024){
+    .grid__item{
+        background-color:#8C4830 ;
+    }
+}
+@media screen and (max-width: 768px){
+    .grid__item{
+        background-color:#c9784a;
+    }
+}
+@media screen and (max-width: 480px){
+    .grid__item{
+        background-color: #F2C7AE;
+    }
+}
+@media screen and (max-width:320px){
+    .grid__item{
+        background-color: aliceblue;
+    }
+}
